@@ -2,8 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node init && vite",
-    "build": "node init && tsc && vite build"
+    "dev": "vite",
+    "build": "tsc && vite build"
   },
   "devDependencies": {
     "@headlessui/react": "^1.4.2",
